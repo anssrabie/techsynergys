@@ -11,7 +11,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url({{asset('assets/front/img/hero-carousel/1.jpg')}})">
+                    <div class="carousel-item active" style="background-image: url({{asset('assets/front/img/hero-carousel/1.webp')}})">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">{{__('a.Attractive and professional website design')}}</h2>
@@ -23,7 +23,7 @@
 
 
 
-                    <div class="carousel-item " style="background-image: url({{asset('assets/front/img/hero-carousel/4.jpg')}})">
+                    <div class="carousel-item " style="background-image: url({{asset('assets/front/img/hero-carousel/4.webp')}})">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">{{(__('a.Unique website design with a professional touch'))}}</h2>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url({{asset('assets/front/img/hero-carousel/5.jpg')}})">
+                    <div class="carousel-item" style="background-image: url({{asset('assets/front/img/hero-carousel/5.webp')}})">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">{{__('a.We design websites at reasonable prices and in a short time')}}</h2>
@@ -45,7 +45,7 @@
 
 
 
-                    <div class="carousel-item" style="background-image:url({{asset('assets/front/img/hero-carousel/2.jpg')}})">
+                    <div class="carousel-item" style="background-image:url({{asset('assets/front/img/hero-carousel/2.webp')}})">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">{{__('a.Create your own website with a professional and unique style')}}</h2>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url({{asset('assets/front/img/hero-carousel/3.jpg')}})">
+                    <div class="carousel-item" style="background-image: url({{asset('assets/front/img/hero-carousel/3.webp')}})">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">{{(__('a.Start your own web design and development journey'))}}</h2>
@@ -109,7 +109,7 @@
 
                     <div class="col-md-4" data-aos="fade-left" data-aos-delay="100">
                         <div class="about-col">
-                            <img src="{{asset('assets/front/img/pp.jpg')}}">
+                            <img src="{{asset('assets/front/img/pp.webp')}}">
                         </div>
                     </div>
 
@@ -127,22 +127,22 @@
                 <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
                         <p>{{__('a.Clients')}}</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="66" data-purecounter-duration="1" class="purecounter"></span>
                         <p>{{__('a.Projects')}}</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="864" data-purecounter-duration="1" class="purecounter"></span>
                         <p>{{__('a.Hours Of Support')}}</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                         <p>{{__('a.Years of Experience')}}</p>
                     </div>
 
