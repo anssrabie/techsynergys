@@ -1,0 +1,135 @@
+.card-sigin {max-width: 500px;margin: 10px auto;}
+.country-flag1 strong {display: inherit;}
+.iti__country-list {text-align: inherit}
+
+.icon-side {line-height: 20px !important;font-size: 18px !important;}
+.number_table { margin: 10px;margin-bottom: 5px}
+
+.adtocart {width: 45px;height: 45px;left: 60%;bottom: -50px;}
+
+
+.foods .card-body {padding: 0.7rem;}
+.foods .pro-img-box img {border: 0px !important; height: 10vw;object-fit: fill;width: 100%;transition: 0.5s}
+.foods .pro-img-box img:hover {transform:  scale(1.1);}
+.qty .count {
+    color: #031b4e;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+.qty {
+    text-align: center;
+}
+.minus:hover{
+    background-color: #0162E8 !important;
+}
+.plus:hover{
+    background-color: #0162E8 !important;
+}
+/*Prevent text selection*/
+.foods span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.foods input[type=number]{
+    border: 0;
+    width: 2%;
+}
+.foods input::-webkit-outer-spin-button,
+.foods input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.foods input:disabled{
+    background-color:white;
+}
+/* Chrome, Safari, Edge, Opera */
+.foods input::-webkit-outer-spin-button,
+.foods input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.foods input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.invoice-header {
+    display: inherit;
+}
+
+.responsive-logo .logo-2 {display: none !important;}
+
+#toast-container > div {
+    opacity:1;
+}
+
+.toast {
+    opacity: 1 !important;
+}
+
+
+.card-sigin {
+
+    padding: 5px;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child
+{
+    border-right-width: 1px;
+}
+
+
+.main-sidebar-header {
+    height: 0px;
+}
+
+.main-sidemenu {
+    margin-top: 0px;
+    height: 100%;
+}
+
+
+
+.en {text-align: left;direction: ltr}
+
+
+.spinner-border {
+    vertical-align: middle !important;
+}
+.spinner-border-sm {
+    width: 0.8rem !important;
+    height: 0.8rem !important;
+}
+
+.star-checked {
+    color: orange;
+}

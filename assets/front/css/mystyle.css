@@ -1,0 +1,291 @@
+@font-face {'Cairo'}
+@font-face {
+    font-family: "ReemKufi";
+    src: url("../webfonts/ReemKufi-Regular.ttf");
+}
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo';
+}
+
+.navbar a, .navbar a:focus, #hero h1, #hero .btn-get-started, .counts .counters p, .section-title p, .section-title h2,
+.courses .course-content h3 a, .courses .course-content .price, #footer .footer-newsletter h4, #footer .footer-top h4,
+.breadcrumbs h2, .course-details .course-info h5, .course-details h3, .contact .info h4, .contact h3, #register_baby h5,
+.modal-title, h3, h5{
+    font-family: 'Cairo';
+}
+
+#hero h1, .counts .counters p, .counts .counters span, .section-title p, .courses .course-content h3 a, .courses .course-content .price,
+#footer .footer-newsletter h4, #footer .footer-top h4, .breadcrumbs h2, .course-details h3, .contact .info h4, .about .content h3
+{font-weight: 400}
+
+#header .logo {
+    margin-left: auto !important;
+}
+#hero h1 {font-size: 44px}
+
+.section-title h2 {
+    letter-spacing: 0px;
+}
+
+#header .logo a {
+    font-weight: 400;
+    font-family: 'ReemKufi';
+}
+
+.star-checked {
+    color: orange;
+}
+
+.courses .course-content p {margin-bottom: 0px !important;}
+.courses .course-content .details {margin-bottom: 15px !important;}
+.courses .course-item {
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.courses .trainer .trainer-rank {font-size: 15px}
+.courses .trainer .trainer-profile span {font-size: 15px;font-weight: 400}
+.trainer-rank .btn {font-size: 11px;border-radius: 0px}
+.trainer-rank .btn i {margin-left: 4px}
+.course-details .course-info p {font-weight: 400;font-size: 14px}
+.course-details .course-info h5 {font-size: 16px}
+
+#footer .footer-newsletter {
+    font-size: 11px;
+}
+#footer .footer-newsletter form {
+    margin-top: 15px;
+}
+
+#hero .btn-get-started {letter-spacing: 0;}
+
+label {margin-bottom: 10px}
+
+.login {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #eee;
+    padding: 50px;
+}
+
+.register {
+    margin: auto;
+    border: 1px solid #eee;
+    padding: 50px;
+}
+
+
+.register input:focus, .register textarea:focus, .login input:focus, .login textarea:focus, .filter .form-control:focus, .invoice .form-control:focus  {
+    border-color: #5fcf80;
+}
+
+.register .form-control, .login .form-control, .filter .form-control, .owner_disabled_edits .form-control,
+.invoice .form-control , .form-inline .form-control{
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 14px;
+}
+.register .form-control:focus, .login .form-control:focus, .filter.form-control:focus,
+.owner_disabled_edits .form-control:focus , .form-inline .form-control:focus{
+    border-color: #5fcf80;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+
+.form-control {text-align: left;direction: ltr}
+
+.ar {text-align: right; direction: rtl}
+.register button[type=submit], .search button[type=submit], .login button[type=submit]{
+    background: #5fcf80;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+
+.register button[type=submit]:hover, button[type=reset]:hover, .search button[type=submit]:hover, .login button[type=submit]:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+
+button[type=reset]{
+    background: #eee;
+    border: 0;
+    padding: 10px 35px;
+    color: #000000;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.filter button[type=submit], .filter button[type=reset]{
+    border-radius: 0px !important;
+    padding: 8px 35px !important;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+    text-align: right;
+    direction: rtl;
+    color: #eee;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    text-align: right;
+    direction: rtl;
+    color: #eee;
+    opacity: 0.5;
+}
+
+::placeholder {
+    text-align: right;
+    direction: rtl;
+    color: #eee;
+    opacity: 0.5;
+}
+
+
+
+
+.user-btn {
+    margin-left: 22px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: .25rem;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+.user-btn:hover {
+    background: #3ac162;
+    color: #fff;
+}
+
+.dropdown-item {
+    font-size: 13px;
+    text-align: right;
+    direction: rtl;
+}
+
+.dropdown-item i {
+    margin-left: 4px;
+}
+
+
+select {
+    height: 40px !important;
+}
+
+
+.contact .info .email, .contact .info .phone {margin-top: 0px !important;}
+
+.contact .info h4 {
+    font-size: 19px;
+
+}
+
+.btn, .card {border-radius: 0px}
+
+#myImg {margin-bottom: 5px}
+
+.form-check-input:checked {
+    background-color: #5fcf80;
+    border-color: #5fcf80;
+}
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.dropdown-item span {float: left;font-weight: 100}
+
+.owner_btn {margin-left: 5px}
+.table-bordered > :not(caption) > * > * {font-weight: 400;}
+/* Start Sidebar */
+
+.nav-pills {padding-right: 0px}
+.nav-pills .nav-link {
+    color: #5FCF80;
+}
+
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.modal-header .btn-close {margin: 0px !important;}
+
+.card-header label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.card-header span {
+    font-size: 13px;
+}
+
+.alert {border-radius: 0 !important;}
+
+.text-danger, .text-success {
+    font-size: 15px;
+}
+.badge {font-weight: 100}
+
+.file {line-height: 1.9}
+
+.navbar a, .navbar a:focus {
+    border: 0 !important;
+}
+
+.contact .info p {padding: 0px;direction: ltr}
+.about .content ul i {
+    font-size: 16px;
+    padding-left: 4px;
+    color: #5fcf80;
+}
+
+.wpwl-wrapper-cardNumber, .wpwl-control-expiry, .wpwl-control-cardHolder, .wpwl-control-cvv {text-align: left !important;direction: ltr!important;}
+
+.invoice {
+    margin: auto;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.invoice label {font-weight: 700}
+.form-floating > label {
+    right: 0;font-weight: 400;
+}
+
+
+.payment_alert {font-size: 20px}
+.alert a {font-weight: 700;text-decoration: underline;color: #0f5132 !important;}
+.alert a:hover {font-weight: 700;text-decoration: underline;color: #0f5132 !important;}
+
+
+.ui-widget-header .ui-icon{
+    background-image: url("https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_222222_256x240.png") !important;
+}
+
+.form-inline button[type=reset]:hover {
+    transform: scale(1);
+}
+.form-inline button[type=reset]{
+    border: 0;
+    padding: .375rem .75rem;
+    transition: 0.4s;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

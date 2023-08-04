@@ -1,0 +1,47 @@
+
+body, h1, h2, h3, h4, h5, h6, #hero .btn-get-started{
+    font-family: 'DroidKufi';
+   direction: rtl;
+}
+.carousel-inner {direction: ltr !important;}
+
+#hero h2 {
+    font-family: 'DroidKufiBold';
+    font-weight: 100;
+}
+#hero p {
+    line-height: 32px;
+    direction: rtl;
+}
+#about .about-col h2 {font-weight: 100}
+#about .about-col {
+    height: 400px;
+}
+
+@media (max-width: 991px) {
+    #about .about-col {
+        height: 410px !important;
+    }
+}
+
+#contact .contact-info h3 {font-weight: 300}
+#contact .contact-info a, .tele {font-family: "Open Sans"}
+
+.eng_nav {font-family: "Montserrat", sans-serif; font-weight: 500;}
+.navbar a, .navbar a:focus {
+    font-family: 'DroidKufi';
+    font-weight: 300;
+    font-size: 15px;
+}
+.navbar a i, .navbar a:focus i{
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+
+
+
+.iti__country-list--dropup, .iti__country-list {left: 1px}
+.iti__country.iti__highlight, .iti__country {text-align: right}
+.iti--separate-dial-code .iti__selected-dial-code {direction: ltr;}
+.iti__selected-flag {direction: ltr;}
