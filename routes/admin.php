@@ -17,7 +17,6 @@ Route::group(['namespace'=>'Admin', 'middleware' => ['auth:admin']], function() 
     Route::post('/post-edit-my-profile', 'DashboardController@postEditProfile')->name('post.edit.profile');
 
 
-
     // Meta Desc
     Route::get('/meta-description', 'MetaDescController@index')->name('meta');
     Route::post('/meta-description', 'MetaDescController@editMeta')->name('edit.meta');
