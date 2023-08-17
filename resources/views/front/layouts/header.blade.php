@@ -15,8 +15,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/front/favicon/favicon-16x16.png')}}">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-          rel="stylesheet">
+{{--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"--}}
+{{--          rel="stylesheet">--}}
+
+    <link href="{{asset('assets/front/css/fonts.css')}}" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{asset('assets/front/vendor/animate.css/animate.min.css')}}" rel="stylesheet">

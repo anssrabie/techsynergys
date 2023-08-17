@@ -168,7 +168,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/grandcontours.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/grandcontours.webp')}}" alt="">
                             <a target="_blank" href="https://grandcontours.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
@@ -181,7 +181,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/jazeera.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/jazeera.webp')}}" alt="">
                             <a target="_blank" href="https://eljazeera.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
@@ -194,7 +194,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/natjamal.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/natjamal.webp')}}" alt="">
                             <a target="_blank" href="https://natajaml.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
@@ -207,7 +207,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/aawraq.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/aawraq.webp')}}" alt="">
                             <a target="_blank" href="https://aawraq.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
@@ -220,7 +220,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/white_nile.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/white_nile.webp')}}" alt="">
                             <a target="_blank" href="https://whitenilecontracting.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
@@ -233,7 +233,7 @@
              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="{{asset('assets/front/img/websites/celia.png')}}" alt="">
+                            <img src="{{asset('assets/front/img/websites/celia.webp')}}" alt="">
                             <a target="_blank" href="https://celia-residence.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                         </figure>
 
