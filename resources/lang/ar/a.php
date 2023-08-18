@@ -62,4 +62,5 @@ return [
     'sending' => 'جارى الارسال',
     'Your message has been sent. We will contact you shortly. Thank you!' => 'تم ارسال رسالتك سيتم التواصل معك قريباً. شكرًا لك!',
     'facebook' => 'فيسبوك',
+    'We specialize in web development and design. Contact us for all your website needs.' => 'نحن متخصصون في تطوير وتصميم المواقع الإلكترونية. اتصل بنا لجميع احتياجات موقع الويب الخاص بك.',
 ];

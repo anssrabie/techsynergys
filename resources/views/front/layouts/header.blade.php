@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{getDefaultLang()}}">
 
 <head>
     <meta charset="utf-8">
@@ -14,9 +14,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/front/favicon/favicon-32x32.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/front/favicon/favicon-16x16.png')}}">
 
-    <!-- Google Fonts -->
-{{--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"--}}
-{{--          rel="stylesheet">--}}
+    <meta property="og:title" content="TechSynergys">
+    <meta property="og:description" content="{{__('a.We specialize in web development and design. Contact us for all your website needs.')}}">
+    <meta property="og:image" content="{{ asset('assets/front/favicon/og.png') }}">
+    <meta property="og:url" content="{{ Request::url() }}">
+
 
     <link href="{{asset('assets/front/css/fonts.css')}}" rel="stylesheet">
 
@@ -30,7 +32,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{asset('assets/front/css/style.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.css">
+    <link href="{{asset('assets/front/css/intlTelInput.css')}}" rel="stylesheet">
     @if(getDefaultLang() == 'ar')
         <link href="{{asset('assets/front/css/style_ar.css')}}" rel="stylesheet">
         <style>

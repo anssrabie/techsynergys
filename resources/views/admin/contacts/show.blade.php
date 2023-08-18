@@ -36,25 +36,47 @@
 
 
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <strong> أسم الراسل : </strong>
                                     {{ $contact->name }}
                                 </div>
                             </div>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <strong> الواتساب : </strong>
                                     {{$contact->whats}}
                                 </div>
                             </div>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-4">
                                 <div class="form-group">
                                     <strong> البريد الألكتروني : </strong>
                                     @if(!empty($contact->email))
                                     {{$contact->email}}
+                                    @else
+                                        لا يوجد
+                                    @endif
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <strong> البلد : </strong>
+                                    @if(!empty($contact->country))
+                                        {{$contact->country}}
+                                    @else
+                                        لا يوجد
+                                    @endif
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <strong> المدينة : </strong>
+                                    @if(!empty($contact->city))
+                                        {{$contact->city}}
                                     @else
                                         لا يوجد
                                     @endif
