@@ -62,5 +62,10 @@ return [
     'Your message has been sent. We will contact you shortly. Thank you!' => 'Your message has been sent. We will contact you shortly. Thank you!',
     'facebook' => 'Facebook',
     'We specialize in web development and design. Contact us for all your website needs.' => 'We specialize in web development and design. Contact us for all your website needs.',
+    'We will contact you shortly. Thank you!' => 'We will contact you shortly. Thank you!',
+    'Your message was sent successfully' => 'Your message was sent successfully',
+    'ok' => 'Ok',
+
+
 
 ];

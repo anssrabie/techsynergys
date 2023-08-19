@@ -2269,3 +2269,20 @@ margin-bottom: 5px;
   font-size: 13px;
   color: #ddd;
 }
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    border-radius: 0 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    border: none !important;
+    outline: none !important;
+    overflow: hidden;
+}
+
+.swal2-default-outline:focus {
+    box-shadow: none !important;
+}

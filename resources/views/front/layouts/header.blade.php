@@ -31,6 +31,7 @@
     <link href="{{asset('assets/front/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link href="{{asset('assets/front/css/sweetalert2.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/front/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/front/css/intlTelInput.css')}}" rel="stylesheet">
     @if(getDefaultLang() == 'ar')

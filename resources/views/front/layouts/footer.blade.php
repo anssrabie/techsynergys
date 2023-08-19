@@ -16,7 +16,7 @@
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <!-- Uncomment below i you want to use a preloader -->
-<!-- <div id="preloader"></div> -->
+ <div id="preloader"></div>
 
 <!-- Vendor JS Files -->
 <script src="{{asset('assets/front/js/jquery.min.js')}}"></script>
@@ -27,11 +27,12 @@
 <script src="{{asset('assets/front/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
 <script src="{{asset('assets/front/vendor/swiper/swiper-bundle.min.js')}}"></script>
 <script src="{{asset('assets/front/vendor/waypoints/noframework.waypoints.js')}}"></script>
-<!-- <script src="{{asset('assets/front/vendor/php-email-form/validate.js')}}"></script> -->
 
 <!-- Template Main JS File -->
 <script src="{{asset('assets/front/js/main.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+<script src="{{asset('assets/front/js/sweetalert2.min.js')}}"></script>
+<script src="{{asset('assets/front/js/intlTelInput.min.js')}}"></script>
+{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>--}}
 
 <script>
 
@@ -46,13 +47,13 @@
                 .catch(() => callback("us"));
         },
         hiddenInput: "full",
-        utilsScript: "//cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+        utilsScript: "{{asset('assets/front/js/utils.js')}}"
     });
 
 
     $(document).on('click', '.send_contact', function (e) {
-        e.preventDefault();
 
+        e.preventDefault();
         var full_number = phone_number.getNumber(intlTelInputUtils.numberFormat.E164);
         var numberType = phone_number.getSelectedCountryData();
         var region = numberType['iso2'];
@@ -85,7 +86,6 @@
 
             success: function(data) {
 
-
                 if($.isEmptyObject(data.error)){
 
                     if(data.status == true){
@@ -97,22 +97,26 @@
                         $(".whats_err").empty();
 
                       //  document.getElementById("cform").reset();
+                      //   $(".sent-message").show();
                         $(".send_contact").attr("disabled", true);
-                        $(".sent-message").show();
+
+                        Swal.fire({
+                            title: '{{__('a.Your message was sent successfully')}}',
+                            text: '{{__('a.We will contact you shortly. Thank you!')}}',
+                            icon: 'success',
+                            confirmButtonText: '{{__('a.ok')}}',
+                            confirmButtonColor: '#18d26e',
+                        })
+
                     }
-
-
                 }else{
-
                     $(".name_err").empty();
                     $(".email_err").empty();
                     $(".subject_err").empty();
                     $(".message_err").empty();
                     $(".whats_err").empty();
                     printErrorMsg(data.error);
-
                 }
-
             }
 
         });
@@ -120,12 +124,9 @@
     });
 
     function printErrorMsg (msg) {
-
         $.each( msg, function( key, value ) {
-
             console.log(value);
             $('.'+key+'_err').text(value);
-
         });
 
     }
