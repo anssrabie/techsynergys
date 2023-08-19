@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="{{$KeyWords}}" name="keywords">
+    <meta content="{{__('a.We specialize in web development and design. Contact us for all your website needs.')}}" name="description">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon -->
@@ -18,6 +18,7 @@
     <meta property="og:description" content="{{__('a.We specialize in web development and design. Contact us for all your website needs.')}}">
     <meta property="og:image" content="{{ asset('assets/front/favicon/og.png') }}">
     <meta property="og:url" content="{{ Request::url() }}">
+    <meta property="og:type" content="website">
 
 
     <link href="{{asset('assets/front/css/fonts.css')}}" rel="stylesheet">

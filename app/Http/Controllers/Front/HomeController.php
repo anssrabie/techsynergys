@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
+use App\Models\Description;
 use App\Models\Social;
 use Illuminate\Http\Request;
 
@@ -16,8 +17,9 @@ class HomeController extends Controller
         $Telegram = Social::find(4);
         $Whats = Social::find(5);
         $Phone = Social::find(7);
+        $KeyWords = Description::find(2)->text;
 
-         return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram'));
+         return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram', 'KeyWords'));
 
     }
 }
