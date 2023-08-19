@@ -32,10 +32,14 @@
         </div>
 
         <div class="mt-1 mb-2">
-            <div class="loading">{{__('a.sending')}}</div>
             <div class="error-message"></div>
-            <div class="sent-message">{{__('a.Your message has been sent. We will contact you shortly. Thank you!')}}</div>
         </div>
-        <div class="text-center"><button class="send_contact" type="button">{{__('a.Send')}}</button></div>
+
+{{--        <div class="mt-1 mb-2">--}}
+{{--            <div class="loading">{{__('a.sending')}}</div>--}}
+{{--            <div class="error-message"></div>--}}
+{{--            <div class="sent-message">{{__('a.Your message has been sent. We will contact you shortly. Thank you!')}}</div>--}}
+{{--        </div>--}}
+        <div class="text-center"><button class="send_contact" type="button">{{__('a.Send')}}<span id="spinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span></button></div>
     </form>
 </div>

@@ -2286,3 +2286,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
 .swal2-default-outline:focus {
     box-shadow: none !important;
 }
+.spinner-border-sm {
+    margin-left: 5px;
+    margin-right: 5px;
+}

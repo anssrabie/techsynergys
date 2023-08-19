@@ -54,6 +54,7 @@
     $(document).on('click', '.send_contact', function (e) {
 
         e.preventDefault();
+        var spinner = document.getElementById("spinner");
         var full_number = phone_number.getNumber(intlTelInputUtils.numberFormat.E164);
         var numberType = phone_number.getSelectedCountryData();
         var region = numberType['iso2'];
@@ -78,10 +79,12 @@
             },
 
             beforeSend: function(){
-                $(".loading").show();
+               // $(".loading").show();
+                spinner.classList.remove("d-none"); // Display the spinner
             },
             complete: function(){
-                $(".loading").hide();
+              //  $(".loading").hide();
+                spinner.classList.add("d-none");
             },
 
             success: function(data) {
