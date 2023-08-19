@@ -1529,6 +1529,8 @@ margin-bottom: 5px;
 
     #contact .tele {
         padding: 10px 83px !important;
+        text-align: left;
+        direction: ltr;
     }
 }
 

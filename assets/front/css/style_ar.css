@@ -45,3 +45,9 @@ body, h1, h2, h3, h4, h5, h6, #hero .btn-get-started{
 .iti__country.iti__highlight, .iti__country {text-align: right}
 .iti--separate-dial-code .iti__selected-dial-code {direction: ltr;}
 .iti__selected-flag {direction: ltr;}
+
+
+#contact .tele {
+    direction: ltr !important;
+    text-align: left !important;
+}
