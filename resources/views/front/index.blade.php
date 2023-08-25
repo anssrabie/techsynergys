@@ -97,7 +97,7 @@
 
                 <div class="row about-cols">
 
-                    <div class="col-md-8" data-aos="fade-right" data-aos-delay="100">
+                    <div class="col-md-12" data-aos="fade-right" data-aos-delay="100">
                         <ul>
                         <li><p>{{__('a.We are a team of professionals specialized in web design and development, combining creativity, excellence, and flexibility to achieve our clients\' goals. We believe in the importance of designing and developing websites in an innovative and effective way, where responsive design is one of the most important techniques that should be used in web design.')}}</p></li>
                         <li><p>{{__('a.Our mission is to provide innovative and efficient website design and development services that help our clients achieve their goals and enhance user experience, through continuous innovation and dedication to delivering high-quality services.')}}</p></li>
@@ -107,7 +107,7 @@
 
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-left" data-aos-delay="100">
+                    <div class="col-md-4 d-none" data-aos="fade-left" data-aos-delay="100">
                         <div class="about-col">
                             <img src="{{asset('assets/front/img/pp.webp')}}">
                         </div>
@@ -123,7 +123,7 @@
 
         <!-- ======= Call To Action Section ======= -->
         <section id="call-to-action">
-            <div class="container text-center" data-aos="zoom-in">
+            <div class="container text-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
@@ -155,102 +155,8 @@
 
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <header class="section-header">
-                    <h3 class="section-title">{{__('a.Our Projects')}}</h3>
-                </header>
-
-
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/grandcontours.webp')}}" alt="">
-                            <a target="_blank" href="https://grandcontours.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://grandcontours.com">GrandContours.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/jazeera.webp')}}" alt="">
-                            <a target="_blank" href="https://eljazeera.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://eljazeera.com">Eljazeera.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/natjamal.webp')}}" alt="">
-                            <a target="_blank" href="https://natajaml.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://natajaml.com">Natajaml.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/aawraq.webp')}}" alt="">
-                            <a target="_blank" href="https://aawraq.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://aawraq.com">Aawraq.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/white_nile.webp')}}" alt="">
-                            <a target="_blank" href="https://whitenilecontracting.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://whitenilecontracting.com">WhiteNileContracting.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <figure>
-                            <img src="{{asset('assets/front/img/websites/celia.webp')}}" alt="">
-                            <a target="_blank" href="https://celia-residence.com" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                            <h4><a target="_blank" href="https://celia-residence.com">CeliaResidence.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-            </div>
-
-            </div>
-        </section><!-- End Portfolio Section -->
+            @include('front.includes.portfolio')
+        <!-- End Portfolio Section -->
 
 
         <!-- ======= Contact Section ======= -->

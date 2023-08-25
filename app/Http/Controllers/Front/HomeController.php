@@ -18,8 +18,6 @@ class HomeController extends Controller
         $Whats = Social::find(5);
         $Phone = Social::find(7);
         $KeyWords = Description::find(2)->text;
-
-         return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram', 'KeyWords'));
-
+        return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram', 'KeyWords'));
     }
 }
