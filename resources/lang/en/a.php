@@ -45,7 +45,7 @@ return [
     'Years of Experience' => 'Years of Experience',
     'subject' => 'Subject',
     'Send' => 'Send',
-    'Our Projects' => 'Our Projects',
+    'Our Projects' => 'Our Latest Projects',
     'Projects' => 'Projects',
     'WhatsApp number' => 'WhatsApp number',
     'full name' => 'Full Name',

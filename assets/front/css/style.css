@@ -2303,3 +2303,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+#portfolio .portfolio-item .portfolio-info h4 a {
+    text-transform: lowercase !important;
+}

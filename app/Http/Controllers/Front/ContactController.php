@@ -42,8 +42,6 @@ class ContactController extends Controller
             $City = null;
         }
 
-
-
          Contact::create([
              'name' => $request->name,
              'email' => $request->email,

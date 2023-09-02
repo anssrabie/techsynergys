@@ -46,7 +46,7 @@ return [
     'Clients' => 'العملاء',
     'subject' => 'الموضوع',
     'Send' => 'أرسل',
-    'Our Projects' => 'مشاريعنا',
+    'Our Projects' => 'أخر أعمالنا',
     'Projects' => 'المشاريع',
     'WhatsApp number' => 'رقم الواتساب',
     'full name' => 'الأسم بالكامل',
