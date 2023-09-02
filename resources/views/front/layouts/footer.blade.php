@@ -30,7 +30,6 @@
 
 <!-- Template Main JS File -->
 <script src="{{asset('assets/front/js/main.js')}}"></script>
-<script src="{{asset('assets/front/js/jquery.lazy.min.js')}}"></script>
 <script src="{{asset('assets/front/js/sweetalert2.min.js')}}"></script>
 <script src="{{asset('assets/front/js/intlTelInput.min.js')}}"></script>
 {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>--}}
