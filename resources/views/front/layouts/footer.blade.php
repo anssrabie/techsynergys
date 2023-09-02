@@ -145,12 +145,6 @@
     });
 
 
-    $(function() {
-        $('.lazy').lazy();
-        console.log('lazy');
-    });
-
-
 </script>
 
 
