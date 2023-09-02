@@ -10,5 +10,8 @@ class Contact extends Model
         'name', 'email', 'subject', 'message' ,'seen', 'country', 'city','whats','seen_at'
     ];
 
+    public function email(){
+        return $this->hasOne('App\Models\Email', 'contact_id', 'id');
+    }
 
 }

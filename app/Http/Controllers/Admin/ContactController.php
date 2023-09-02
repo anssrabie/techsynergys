@@ -53,7 +53,12 @@ class ContactController extends Controller
         if (!$contact){
             return redirect()->route('contacts')->with(['error' => 'جهة الاتصال غير موجودة بالفعل']);
         }
+        $email = $contact->email->first();
+        if ($email){
+            $email->delete();
+        }
         $contact->delete();
+
         return redirect()->route('contacts')->with(['success' => 'تم حذف جهة الأتصال بنجاح']);
     }
 

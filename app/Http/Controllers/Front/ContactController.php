@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
+use App\Models\Email;
 use App\Rules\IsPhoneNumber;
 use App\Rules\PhoneNumber;
 use Illuminate\Http\Request;
@@ -42,7 +43,7 @@ class ContactController extends Controller
             $City = null;
         }
 
-         Contact::create([
+         $Contact = Contact::create([
              'name' => $request->name,
              'email' => $request->email,
              'subject' => $request->subject,
@@ -52,7 +53,11 @@ class ContactController extends Controller
              'city' => $City,
          ]);
 
-
+        if ($Contact){
+            Email::create([
+                'contact_id' => $Contact->id
+            ]);
+        }
 
         return response()->json([
             'status' => true
