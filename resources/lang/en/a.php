@@ -41,7 +41,7 @@ return [
     'Testimonials' => 'Testimonials',
     'Clients' => 'Clients',
     'Products' => 'Products',
-    'Hours Of Support' => 'Hours Of Support',
+    'Hours Of Support' => 'Number Of Visitors',
     'Years of Experience' => 'Years of Experience',
     'subject' => 'Subject',
     'Send' => 'Send',

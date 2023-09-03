@@ -41,7 +41,7 @@ return [
     'Our Products' => 'منتجاتنا',
     'Testimonials' => 'أراء العملاء السابقين',
     'Years of Experience' => 'سنوات الخبرة',
-    'Hours Of Support' => 'ساعات الدعم الفنى',
+    'Hours Of Support' => 'عدد الزوار',
     'Products' => 'المنتجات',
     'Clients' => 'العملاء',
     'subject' => 'الموضوع',
