@@ -142,7 +142,7 @@
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="845762" data-purecounter-duration="3" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="84762" data-purecounter-duration="3" class="purecounter"></span>
                         <p>{{__('a.Hours Of Support')}}</p>
                     </div>
 
