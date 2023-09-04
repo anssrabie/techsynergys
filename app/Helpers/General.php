@@ -39,13 +39,23 @@ function sendLeadEmail(){
         "rabidev2020@gmail.com",
         "anss.clash@gmail.com",
     ];
-    $subject= 'Conatct us Message';
+    $subject= 'Contact us Message';
     $message = "Please Check Your Dashboard , There is One Contact ith You";
     $headers= "From: ".$from;
     foreach($to_arr as $to)
     {
-        mail($to,$subject,$message,$headers);
+        try {
+            $Send = mail($to,$subject,$message,$headers);
+            if ($Send){
+                return true;
+            }else{
+                return false;
+            }
+        }catch (\Exception $e){
+            return false;
+        }
+
     }
-    return true;
+
 }
 
