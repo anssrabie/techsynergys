@@ -2,7 +2,7 @@
 <footer id="footer">
     <div class="container">
         <div class="social-links text-center">
-            <a data-bs-toggle="tooltip" title="Phone" href="tel:{{$Phone->link}}" target="_blank"><i class="bi bi-telephone"></i></a>
+            <a data-bs-toggle="tooltip" title="Phone" href="tel:+{{$Phone->link}}" target="_blank"><i class="bi bi-telephone"></i></a>
             <a data-bs-toggle="tooltip" title="Facebook" href="{{$Facebook->link}}" target="_blank"><i class="bi bi-facebook"></i></a>
             <a data-bs-toggle="tooltip" title="Telegram" href="{{$Telegram->link}}" target="_blank"><i class="bi bi-telegram"></i></a>
             <a data-bs-toggle="tooltip" title="Email" href="mailto:{{$Email->link}}" target="_blank"><i class="bi bi-envelope"></i></a>
