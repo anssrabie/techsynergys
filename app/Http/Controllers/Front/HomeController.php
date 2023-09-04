@@ -14,10 +14,11 @@ class HomeController extends Controller
 
         $Facebook = Social::find(1);
         $Email = Social::find(2);
+        $Instagram = Social::find(3);
         $Telegram = Social::find(4);
         $Whats = Social::find(5);
         $Phone = Social::find(7);
         $KeyWords = Description::find(2)->text;
-        return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram', 'KeyWords'));
+        return view('front.index', compact('Facebook', 'Email', 'Whats', 'Phone', 'Telegram', 'Instagram','KeyWords'));
     }
 }

@@ -7,6 +7,7 @@
             <a data-bs-toggle="tooltip" title="Telegram" href="{{$Telegram->link}}" target="_blank"><i class="bi bi-telegram"></i></a>
             <a data-bs-toggle="tooltip" title="Email" href="mailto:{{$Email->link}}" target="_blank"><i class="bi bi-envelope"></i></a>
             <a data-bs-toggle="tooltip" title="WhatsApp" href="{{$Whats->link}}" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a data-bs-toggle="tooltip" title="Instagram" href="{{$Instagram->link}}" target="_blank"><i class="bi bi-instagram"></i></a>
         </div>
         <div class="copyright">
             &copy; {{__('a.Copyright')}} <strong>TechSynergys</strong>. {{__('a.All Rights Reserved')}} 2020 - {{date('Y')}}
