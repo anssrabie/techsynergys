@@ -8,6 +8,7 @@ use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Request;
 
 class ContactEmail extends Command
 {
@@ -80,9 +81,6 @@ class ContactEmail extends Command
             }
         }
 
-
-
-
     }
 
 
@@ -91,7 +89,15 @@ class ContactEmail extends Command
         try
         {
             Mail::to($email)->send(new ContactMail($contact));
-            return true;
+
+            if (count(Mail::failures()) > 0) {
+                // Email failed to send
+                return false;
+            } else {
+                // Email sent successfully
+                return true;
+            }
+
 
         } catch (\Exception $e) {
             return false;

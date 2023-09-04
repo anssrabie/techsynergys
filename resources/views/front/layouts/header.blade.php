@@ -17,7 +17,7 @@
     <meta property="og:title" content="TechSynergys">
     <meta property="og:description" content="{{__('a.We specialize in web development and design. Contact us for all your website needs.')}}">
     <meta property="og:image" content="{{ asset('assets/front/favicon/og.png') }}">
-    <meta property="og:url" content="{{ Request::url() }}">
+    <meta property="og:url" content="{{ \Illuminate\Support\Facades\Request::url() }}">
     <meta property="og:type" content="website">
 
 
