@@ -178,7 +178,7 @@
                             <i class="bi bi-phone"></i>
                             <h3>{{__('a.phone number')}}</h3>
                             <p>
-                                <a target="_blank" href="tel:{{$Phone->link}}">+{{$Phone->link}}</a>
+                                <a target="_blank" href="tel:+{{$Phone->link}}">+{{$Phone->link}}</a>
                             </p>
                         </div>
                     </div>
