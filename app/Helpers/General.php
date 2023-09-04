@@ -46,6 +46,6 @@ function sendLeadEmail(){
     {
         mail($to,$subject,$message,$headers);
     }
-    echo true;
+    return true;
 }
 
