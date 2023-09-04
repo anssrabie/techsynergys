@@ -97,7 +97,7 @@
                     </figure>
 
                     <div class="portfolio-info">
-                        <h4><a target="_blank" href="https://celia-residence.com">CeliaResidence.com</a></h4>
+                        <h4><a target="_blank" href="https://celia-residence.com">Celia-Residence.com</a></h4>
                     </div>
                 </div>
             </div>
