@@ -51,8 +51,7 @@ class ContactEmail extends Command
         if (count($AhmedEmails) > 0){
             foreach ($AhmedEmails as $ahmedEmail){
                 $contact = $ahmedEmail->contact->first();
-                $emailSent = $this->sendEmail($contact, $ahmed);
-
+                $emailSent = sendLeadEmail();
                 if ($emailSent) {
                     $ahmedEmail->update([
                         'ahmed' => 1,
@@ -69,8 +68,8 @@ class ContactEmail extends Command
         if (count($AnssEmails) > 0){
             foreach ($AnssEmails as $anssEmail){
                 $contact = $anssEmail->contact->first();
-                $emailSent = $this->sendEmail($contact, $anss);
 
+                $emailSent =  sendLeadEmail();
                 if ($emailSent) {
                     $anssEmail->update([
                         'anss' => 1,
@@ -84,22 +83,22 @@ class ContactEmail extends Command
     }
 
 
-    private function sendEmail($contact,$email)
-    {
-        try
-        {
-            $result = Mail::to($email)->send(new ContactMail($contact));
-
-            if ($result) {
-                return true;
-            } else {
-                return false;
-            }
-
-
-        } catch (\Exception $e) {
-            return false;
-        }
-
-    }
+//    private function sendEmail($contact,$email)
+//    {
+//        try
+//        {
+//            $result = Mail::to($email)->send(new ContactMail($contact));
+//
+//            if ($result) {
+//                return true;
+//            } else {
+//                return false;
+//            }
+//
+//
+//        } catch (\Exception $e) {
+//            return false;
+//        }
+//
+//    }
 }

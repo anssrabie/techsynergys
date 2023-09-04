@@ -31,3 +31,21 @@ function getUserIP()
 
     return $ip;
 }
+
+
+function sendLeadEmail(){
+    $from   = "info@tech-synergys.com";
+    $to_arr = [
+        "rabidev2020@gmail.com",
+        "anss.clash@gmail.com",
+    ];
+    $subject= 'Conatct us Message';
+    $message = "Please Check Your Dashboard , There is One Contact ith You";
+    $headers= "From: ".$from;
+    foreach($to_arr as $to)
+    {
+        mail($to,$subject,$message,$headers);
+    }
+    echo true;
+}
+
