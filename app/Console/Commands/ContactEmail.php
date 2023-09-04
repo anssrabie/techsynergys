@@ -86,20 +86,12 @@ class ContactEmail extends Command
 
     private function sendEmail($contact,$email)
     {
-        try
-        {
-            Mail::to($email)->send(new ContactMail($contact));
 
-            if (count(Mail::failures()) > 0) {
-                // Email failed to send
-                return false;
-            } else {
-                // Email sent successfully
-                return true;
-            }
+        $result = Mail::to($email)->send(new ContactMail($contact));
 
-
-        } catch (\Exception $e) {
+        if ($result) {
+            return true;
+        } else {
             return false;
         }
 
