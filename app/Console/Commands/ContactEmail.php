@@ -86,12 +86,18 @@ class ContactEmail extends Command
 
     private function sendEmail($contact,$email)
     {
+        try
+        {
+            $result = Mail::to($email)->send(new ContactMail($contact));
 
-        $result = Mail::to($email)->send(new ContactMail($contact));
+            if ($result) {
+                return true;
+            } else {
+                return false;
+            }
 
-        if ($result) {
-            return true;
-        } else {
+
+        } catch (\Exception $e) {
             return false;
         }
 
