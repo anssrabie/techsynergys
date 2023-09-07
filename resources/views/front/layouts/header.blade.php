@@ -33,10 +33,10 @@
 
     <!-- Template Stylesheet -->
     <link href="{{asset('assets/front/css/sweetalert2.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/front/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/front/css/style.css')}}?v={{$v}}" rel="stylesheet">
     <link href="{{asset('assets/front/css/intlTelInput.css')}}" rel="stylesheet">
     @if(getDefaultLang() == 'ar')
-        <link href="{{asset('assets/front/css/style_ar.css')}}" rel="stylesheet">
+        <link href="{{asset('assets/front/css/style_ar.css')}}?v={{$v}}" rel="stylesheet">
         <style>
             .navbar .dropdown ul {left: 14px;}
             @media (min-width: 768px) {
